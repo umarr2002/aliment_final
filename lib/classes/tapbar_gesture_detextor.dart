@@ -9,7 +9,7 @@ class TapbarGestureDetextor extends StatelessWidget {
   final String? text;
   final Function onTap;
 
-  TapbarGestureDetextor({
+  const TapbarGestureDetextor({
     super.key,
     required this.check,
     required this.colortrue,

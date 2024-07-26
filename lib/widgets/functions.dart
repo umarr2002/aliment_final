@@ -1,4 +1,3 @@
-
 import 'package:aliment/variables.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +11,7 @@ class FunctionsGlobal extends StatelessWidget {
 
     validateOtp();
 
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2));
 
     setState(() {
       isLoading = false;
@@ -25,15 +24,10 @@ class FunctionsGlobal extends StatelessWidget {
     }
   }
 
-
-
   @override
   Widget build(BuildContext context) {
-
-    
-
     return const Placeholder();
   }
-  
+
   void setState(Null Function() param0) {}
 }

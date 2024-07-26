@@ -1,9 +1,10 @@
+import 'package:aliment/classes/text_field_class.dart';
 import 'package:aliment/variables.dart';
-import 'package:aliment/classes/textfield.dart';
+
 import 'package:flutter/material.dart';
 
 class TextFieldPhoneEmail extends StatefulWidget {
-  TextFieldPhoneEmail(
+  const TextFieldPhoneEmail(
       {super.key, required this.isPhone, required this.phoneContoller});
   final bool isPhone;
   final TextEditingController phoneContoller;

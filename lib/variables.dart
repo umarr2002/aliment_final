@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-final String defaulPassword = "2121";
+const String defaulPassword = "2121";
 bool onClick = false;
 bool check = true;
 bool isLoading = false;

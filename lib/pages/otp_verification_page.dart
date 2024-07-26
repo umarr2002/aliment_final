@@ -1,8 +1,5 @@
-import 'dart:ffi';
 
 import 'package:aliment/classes/otp_textfield.dart';
-import 'package:aliment/variables.dart';
-import 'package:aliment/pages/login_account_page.dart';
 import 'package:flutter/material.dart';
 
 class OtpVerification extends StatefulWidget {
@@ -29,7 +26,7 @@ class _OtpVerificationState extends State<OtpVerification> {
 
     _validateOtp();
 
-    await Future.delayed(Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2));
 
     setState(() {
       _isLoading = false;
